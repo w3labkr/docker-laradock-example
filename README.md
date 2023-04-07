@@ -1,2 +1,2 @@
-# docker-laradock-example
-PHP development environment Example
+# docker-laradock-laravel
+Laravel development environment Example
