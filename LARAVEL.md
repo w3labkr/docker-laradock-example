@@ -9,18 +9,20 @@ PHP 개발 환경 예시
 - [코드이그나이터 설정하기](CODEIGNITER.md)
 - [자주사용하는 도커 명령어](DOCKER.md)
 
-## 라라벨 설정하기
+## 라라벨 설치하기
 
 ```shell
 $ docker-compose exec --user=laradock workspace bash
 $ cd /var/www/project
 ```
 
-설치하기
+현재 폴더에 설치하기
 
 ```shell
 composer create-project --prefer-dist laravel/laravel . -vvv
 ```
+
+## 라라벨 설정하기
 
 키 생성하기
 

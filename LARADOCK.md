@@ -53,16 +53,22 @@ PMA_DB_ENGINE=mysql
 
 ```shell
 $ vi /c/Windows/System32/drivers/etc/hosts
+#
+127.0.0.1  localhost
 127.0.0.1  project.test
 ...
+::1 localhost
 ```
 
 리눅스에서 호스트 파일에 도메인 추가하기
 
 ```shell
 $ vi /etc/hosts
+#
+127.0.0.1  localhost
 127.0.0.1  project.test
 ...
+::1 localhost
 
 $ /etc/init.d/networking restart
 ```
@@ -200,4 +206,14 @@ docker-compose up -d --force-recreate mysql
 
 ```shell
 docker-compose restart mysql
+```
+
+데이터베이스에 접속하기
+
+```shell
+# 컨테이너에 접속하기
+$ docker-compose exec mysql bash
+
+# 데이터베이스 접속하기
+root> mysql -uroot -proot
 ```
