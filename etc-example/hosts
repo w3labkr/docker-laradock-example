@@ -1,0 +1,8 @@
+#
+127.0.0.1 localhost
+127.0.0.1 laravel.test
+127.0.0.1 codeigniter.test
+127.0.0.1 modern-php.test
+::1 localhost
+
+0.0.0.0 example.com
