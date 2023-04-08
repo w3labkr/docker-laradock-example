@@ -50,8 +50,11 @@ $ vi /c/Windows/System32/drivers/etc/hosts
 STEP 3. 라라독 실행하기
 
 ```shell
-$ cd laradock
-$ docker-compose up -d nginx mysql phpmyadmin redis workspace
+cd laradock
+```
+
+```shell
+docker-compose up -d nginx mysql phpmyadmin redis workspace
 ```
 
 STEP 4. 라라벨 설치하기
