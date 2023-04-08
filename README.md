@@ -31,7 +31,7 @@ git clone https://github.com/laradock/laradock.git
 STEP 2-1. 라라독 설정하기
 
 ```shell
-cp -r laradock-example/* laradock
+cp -a laradock-example/. laradock/
 ```
 
 STEP 2-2. 호스트 파일 설정하기
@@ -65,7 +65,7 @@ laradock> composer create-project --prefer-dist laravel/laravel laravel -vvv
 laradock> exit
 
 # 예제파일 추가하기
-$ cp -r laravel-example/* laravel
+$ cp -a laravel-example/. laravel
 ```
 
 STEP 5. 코드이그나이터 설치하기
@@ -79,7 +79,7 @@ laradock> composer create-project codeigniter4/appstarter codeigniter
 laradock> exit
 
 # 예제파일 추가하기
-$ cp -r codeigniter-example/* codeigniter
+$ cp -a codeigniter-example/. codeigniter
 ```
 
 STEP 6. 데이터베이스 접속하기
