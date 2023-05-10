@@ -47,7 +47,7 @@ docker ps -a
 docker ps -aq
 ```
 
-모든 컨테이너 강제로 제거하기
+모든 컨테이너 제거하기
 
 ```shell
 docker container rm -f $(docker ps -aq)

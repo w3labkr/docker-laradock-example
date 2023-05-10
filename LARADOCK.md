@@ -152,6 +152,7 @@ $ vi php-fpm/php<PHP_VERSION>.ini
 ...
 date.timezone = Asia/Seoul
 short_open_tag = On
+display_errors = On
 ```
 
 컨테이너 재구축하기
